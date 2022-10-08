@@ -12,3 +12,7 @@
  *
  * export const test = 1;
  */
+
+//EXPORT llama a un fichero de afuera.
+
+export const BASE_URL = "https://jsonplaceholder.typicode.com/users";
