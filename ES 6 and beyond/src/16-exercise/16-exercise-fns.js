@@ -9,3 +9,7 @@ export function addTwo(num) {
 export function addThree(num) {
     return 3 + num;
 }
+
+// SIEMPRE debemos de usarla para exportar.
+
+//export default {addOne, addTwo, addThree}
