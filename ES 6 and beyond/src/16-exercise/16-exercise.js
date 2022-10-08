@@ -7,3 +7,12 @@
  * You can use the `export * as name from "./url-path"` command
  * to export all the modules in a file under a particular namespace
  */
+
+//          PRIMERA MANERA
+
+//const utils = requiere("./16-exercise-fns.js");
+//export default utils;
+
+//      SEGUNDA MANERA  
+
+export * as utils from "./16-exercise-fns.js";
