@@ -16,7 +16,10 @@
  */
 
 // Finish the code of the function
-function exercise11() {}
+function exercise11(array, entry) {
+    const encontrar = array.find((elemento)=> elemento === entry);
+    return encontrar;
+}
 
 // Don’t change the code bellow this line
 export default exercise11;
