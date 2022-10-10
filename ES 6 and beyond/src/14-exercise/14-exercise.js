@@ -12,3 +12,10 @@
  *    return "something";
  * };
  */
+
+export function add(a, b) {
+     const func = a+b;
+     return func;
+}
+
+//export default add;
